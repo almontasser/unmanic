@@ -142,8 +142,8 @@ RUN \
 
 # Install commonly used command line tools
 ARG JELLYFIN_FFMPEG_VERSION="7"
-ARG BTBN_FFMPEG_RELEASE="autobuild-2026-03-19-13-03"
-ARG BTBN_FFMPEG_VERSION="8.0"
+ARG BTBN_FFMPEG_RELEASE="autobuild-2026-05-03-13-13"
+ARG BTBN_FFMPEG_VERSION="8.1"
 ARG NODE_MAJOR="22"
 RUN \
     echo "**** Configure APT ****" \
